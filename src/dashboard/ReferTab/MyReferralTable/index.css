@@ -1,0 +1,22 @@
+.site-card-wrapperr2 {
+    width: 100%;
+    overflow: auto;
+  }
+  .table-responsive2 {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  @media (min-width: 400px) {
+    .site-card-wrapperr2 {
+      overflow-x: hidden;
+    }
+  
+    .table-container2 {
+      overflow-x: hidden;
+    }
+  
+    .table-responsive2 {
+      overflow-x: hidden;
+    }
+  }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not Qualified</title>
+  
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhjw3g5jH7jULk7WzZySiyDyz+0Roj3u8Tfs8e3kSkZSt6eao6zF1pbMnzT1E9r"
+    crossorigin="anonymous"
+  />
+
+  <style>
+
+    .not-qualified {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f8f9fa;
+    }
+    .alert-bg {
+      background-color: #0000000e;
+      padding: 20px;
+      border-radius: 5px;
+      color: white;
+      text-align: center;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+    .gr {
+      background: linear-gradient(45deg, #444fa2, #41ba7c);
+    }
+  </style>
+  
+  <script>
+    setTimeout(function() {
+      window.location.href = '/'; 
+    }, 5000);
+  </script>
+</head>
+<body>
+  <div class="not-qualified gr">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <div class="alert-bg p-4">
+            <h1 class="display-4">You are not qualified for this survey.</h1>
+            <p class="lead">Thank you for your time and understanding.</p>
+            <p>You will be automatically redirected to the homepage in 5 seconds.</p>
+            <a href="/" class="btn btn-primary mt-3">Click to earn 5 points</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGzEyZFLYB6UcTHzzjO03+Uj6wFniBl6w6M5cwBfXWwp/"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyI3CU8Uffo34GxkDz2bMHO5pvfITuEk7pCgNzM+op1DhbNVDcWldY2"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
