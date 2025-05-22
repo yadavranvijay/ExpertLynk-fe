@@ -29,27 +29,27 @@ const DashbordHome = () => {
     },
     {
       name: "Technology",
-      img: "https://via.placeholder.com/50",
+      img: "https://ik.imagekit.io/zkumsdjqx/profile-survey/Automobile.jpg?updatedAt=1724688091976",
       response_count: 8,
       questions_count: 12,
     },
     {
       name: "Healthcare",
-      img: "https://via.placeholder.com/50",
+      img: "https://ik.imagekit.io/zkumsdjqx/profile-survey/Automobile.jpg?updatedAt=1724688091976",
       response_count: 3,
       questions_count: 6,
     },
     {
       name: "Education",
-      img: "https://via.placeholder.com/50",
+      img: "https://ik.imagekit.io/zkumsdjqx/profile-survey/Automobile.jpg?updatedAt=1724688091976",
       response_count: 10,
       questions_count: 15,
     },
   ];
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top on mount
-  }, [dispatch]); // Run on mount and when dispatch changes
+    window.scrollTo(0, 0);  
+  }, [dispatch]);  
 
   return (
     <div className="main-content-wrapper">
@@ -96,7 +96,7 @@ const DashbordHome = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/logout">
+                  <NavLink to="/sign-out">
                     <span className="icon">
                       <LogoutOutlined />
                     </span>

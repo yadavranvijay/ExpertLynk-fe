@@ -13,12 +13,12 @@ const LandingLayout = () => {
   const isLoginCardOpen = useSelector((state) => state.sidebar.isLoginCardOpen);
   return (
     <div>
-      <Header />
+     
       <main><Outlet /></main>
       {isLoginCardOpen && (
         <LoginCard />
       )}
-      <Footer />
+     
     </div>
   );
 };

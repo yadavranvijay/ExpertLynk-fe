@@ -1,6 +1,7 @@
 // src/components/Login.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import CustomButton from "./components/customlogin";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -61,10 +62,14 @@ const Login = () => {
                     required
                   />
                 </div>
+                {/* <CustomButton /> */}
 
-                <button type="submit" className="btn btn-primary w-100 mb-3">
+                {/* <button type="submit" className="btn btn-primary w-100 mb-3">
                   Login
-                </button>
+                </button> */}
+                <Link to="/dashboard" className="btn btn-primary w-100 mb-3">
+                    Go to dashboard
+                  </Link>
 
                 <div className="text-center">
                   <Link to="/forgot-password" className="auth-link">

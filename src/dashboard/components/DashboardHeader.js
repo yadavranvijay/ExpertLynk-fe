@@ -40,6 +40,7 @@ const DashboardHeader = () => {
 
   return (
     <>
+      <div className="dashboard-header-main">
       <div className="dash-content-wrapper dashboard-header">
         <div className="px-sm-5 px-3 n-wrapper d-flex align-items-center justify-content-between">
           <div className="dashboard-header-logo">
@@ -155,7 +156,7 @@ const DashboardHeader = () => {
         </div>
       </div>
       <div className="dashboard-header-bottom"></div>
-
+</div>
       {/* CSS for styling */}
     </>
   );

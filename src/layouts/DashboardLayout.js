@@ -96,7 +96,7 @@ const DashboardLayout = () => {
       </div>
 
       {/* Conditionally render ExtraInfo only if it's not an iPhone */}
-      <ExtraInfo />
+      {/* <ExtraInfo /> */}
     </div>
   );
 };
